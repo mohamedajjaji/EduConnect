@@ -34,7 +34,7 @@ To get started with EduConnect, follow these steps:
     Create a virtual environment:
 
     ```bash
-    py -m venv venv
+    py venv venv
     venv\Scripts\activate
     ```
 
@@ -43,7 +43,7 @@ To get started with EduConnect, follow these steps:
     ```bash
     cd backend
     pip install -r requirements.txt
-    py -m manage.py runserver 
+    py manage.py runserver 
     ```
 
 4. Install frontend dependencies and start the development server:
